@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    padding: 74px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+
+    
+
+
+
+}
+.form-box{
+    width: 300px;
+    padding: 40px;
+    
+}
+.form-box input[type = "text"],
+.form-box input[type = "password"],
+.form-box button[type = "submit"]{
+
+    border: 1px solid;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    padding: 14px 0;
+
+}
+.form-box input[type = "text"]{
+    width: 245px;
+    padding: 7px 0;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #4a51d8;
+    
+}
+.form-box input[type = "password"]{
+    width: 245px;
+    padding: 7px 0;
+    border-radius: 5px;
+    text-align: center;
+    background: none;
+    border: 1px solid #4a51d8;
+    
+    
+}
+
+.form-box button[type = "submit"]{
+    width: 145px;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-left: 53px;
+    text-align: center;   
+    cursor: pointer;
+    background: #4a51d8;
+    color: #fff;
+    border: 0;
+
+}
+.fa{
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 9px;
+}
+.fa-lock{
+    position: absolute;
+    margin-top: 7px;
+}
+span{
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+.fa-circle-chevron-right{
+    color: #4a51d8;
+    font-size: 24px;
+    margin-top: 44px;
+    position: absolute;
+    margin-left: -64px;
+    cursor: pointer;
+}
